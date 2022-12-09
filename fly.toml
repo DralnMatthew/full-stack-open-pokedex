@@ -6,7 +6,6 @@ kill_timeout = 5
 processes = []
 
 [env]
-  PORT = "8080"
 
 [experimental]
   allowed_public_ports = []
@@ -43,6 +42,3 @@ processes = []
 
 [processes]
   app = "node app.js"
-
-[build]
-  builder = "heroku/buildpacks:20"
